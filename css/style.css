@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white url(../imagens/fundo.png) repeat-x top center;
+    height: auto;
+    
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    color: #fff;
+    background: #b10333;
+   
+}
+
+.entrevista h3{
+    color: black;
+    background: #de003e;
+}
+
+img #destaque{
+    border: 2px solid #dfdfdf;
+    margin-top: 5px;
+}
+
+#logo{
+    /*border: 1px solid red;*/
+    padding-top: 20px;
+    width: 30%;
+    margin-left: 20%;
+}
+
+#detalhe{
+    display: inline;
+    float: right;
+    /*border: 1px solid red;*/
+    width: 30%;
+    margin-top: -70px;
+}
+
+#menu{
+    /*border: 1px solid red;*/
+    width: 45%;
+    margin-left: 20%;
+    margin-top: 20px;
+    background: #b10333;
+    padding-top: 8px;
+}
+
+#menu ul{
+    list-style: none;
+    text-align: center;
+    font-size: 19px;
+    height: 30px;
+    justify-content: center;
+    
+}
+
+#menu  li{
+    display: inline;
+    /*border: 1px solid red;*/
+    padding-right: 13px;
+    padding-left: 13px;
+    background: #b10333 url(../imagens/divisor.png) repeat-y left;
+}
+
+body.home #menu #home,
+body.brasil #menu #brasil,
+body.internacional #menu #internacional,
+body.economia #menu #economia,
+body.saude #menu #saude,
+body.fotos #menu #fotos,
+body.ciencia #menu #ciencia
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+#menu ul a{
+    font-size: 0.9em;
+    display: inline;
+    padding: 10px 3px 10px 3px;
+    list-style: none;
+    text-decoration: none;
+    color: #ccc;
+}
+
+#menu a:hover{
+    background: rgb(226, 29, 58)  url(/imagens/divisor.png);
+    text-decoration: none;
+    color: #ccc;
+}
+
+.fotos #conteudo #primario{
+    width: 910px;
+    margin: 0 0 20px 0;
+}
+
+.brasil #conteudo #secundario{
+    width: 655px;
+    margin: 0 0 20px 0;
+}
+
+#conteudo{
+    background: #f5f5f5;
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#primario{
+    width: 290px;
+    float: right;
+    margin: 0 0 20px 16px;
+}
+
+
+#secundario{
+    width: 290px;
+    float: right;
+    margin: 0 0 20px 60px;
+
+}
+
+#lateral{
+    width: 220px;
+    float: right;
+    margin: 0 35px 20px -710px;
+
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    background: #fff;
+    padding: 5px;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px  solid #870529;
+}
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 900px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+/*Caixa*/
+
+.caixa{
+    margin: 10px 0px;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral .caixa-conteudo li a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+/*Formatando a lista de notícias*/
+
+#lista-noticia li{
+    padding: 2px;
+    border-bottom: 1px solid    #ccc;
+    height: 63px;
+    background: no-repeat;
+}
+
+#lista-noticia li a img{
+    float: left;
+    margin: 5px;
+}
+
+
+#lista-noticia li a{
+    text-decoration: none;
+}
+
+#lista-noticia ul li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticia li:hover{
+    background: #eee;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+#lista-noticia li a{
+    font-size: 0.9em;
+}
+
+#lista-noticia li a p{
+    font-size: 0.7em;
+}
+
